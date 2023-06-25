@@ -1,0 +1,146 @@
+.container{
+    max-width: 138rem;
+    margin: 0 auto;
+}
+
+.head .head__all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 1.8rem;
+}
+
+.head .head__all .head__left{
+    display: flex;
+    gap: 3.1rem;
+    align-items: center;
+}
+
+.head .head__all .head__left .aze{
+    width: 3.2rem;
+    height: 3rem;
+    border: 1px solid #D4C8BE;
+    border-radius: 5px;
+}
+
+.head__rightt__global{
+    display: contents;
+}
+
+.head__righttt{
+    display: none !important;
+}
+
+
+.head .head__all .head__left img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.head .head__all .head__center .homedecor{
+    width: 20rem;
+    height: 4rem;
+    font-family: 'Didot';
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 4rem;
+}
+
+
+.head .head__all .head__right{
+    display: flex;
+    gap: 3.7rem;
+    align-items: center;
+}
+
+
+
+.head .head__all .head__right .adam img{
+    width: 1.6rem;
+    height: 2.1rem;
+}
+
+
+
+
+
+.navul ul{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    padding-top: 2.7rem;
+}
+
+.navul ul li a{
+    width: 4.6rem;
+    height: 2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--color-black);
+}
+
+
+.coller .collerra{
+    margin-top: 7rem;
+}
+
+.coller p{
+    max-width: 56rem;
+    margin-top: 4rem;
+
+}
+
+.coller .gred__all{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(40rem, 1fr));
+    gap: 2rem;
+}
+
+.gred__box img{
+    border-radius: 1rem !important;
+}
+
+
+.coller .gred__all .gred__box .gred__blur{
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.5px);
+    border-radius: 0rem 0rem 1rem 1rem;
+    bottom: 6rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--color-cream);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+
+
+
+
+@media(max-width: 470px) {
+    .coller .gred__all .gred__box img{
+        width: 36rem;
+    }
+}
+
+
+@media(max-width: 405px){
+     .gred__box{
+        grid-template-columns: 1fr !important;
+     }
+}
+
+@media(max-width: 320px) {
+    .coller .gred__all{
+        margin-top: 35rem;
+    }
+
+}

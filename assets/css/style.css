@@ -1,0 +1,125 @@
+:root { 
+    --color-cream: #EAE6DF; 
+    --color-tund:#D4C8BE;
+    --color-grey:#B0B0B0;
+    --color-sabalid:#B8926A;
+    --color-black:#2D2D2B;
+    --color-white:#FFFFFF 
+  } 
+   
+  *, 
+  *::before, 
+  *::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    outline: 0; 
+    border: 0; 
+  } 
+   
+  @font-face { 
+    font-family: "didot"; 
+    src: url('../fonts/Didot\ Regular.ttf') format('truetype'); 
+
+  } 
+
+  @font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Bold.ttf');
+    src: url('../fonts/Raleway-SemiBold.ttf');
+    src: url('../fonts/Raleway-Regular.ttf');
+    src: url('../fonts/Raleway-Medium.ttf');
+  }
+   
+  html { 
+    box-sizing: border-box; 
+    /*10px/16px = 62.5% -> 1rem = 10px */ 
+    font-size: 62.5%;
+    
+  } 
+   
+  body { 
+    font-family: 'Raleway'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 1.6rem; 
+    line-height: 2.4rem;  
+    color: var(--color-black); 
+    background-color: var(--color-cream); 
+  } 
+    
+  .subtitle{
+    max-width: 33rem;
+    max-height: 4.2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-top: 2.2rem;
+  }
+
+  .money{
+    max-width: 4.9rem;
+    max-height: 2.8rem;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: var(--color-sabalid);
+    margin-top: 2.2rem;
+  }
+   
+  img { 
+    width: 100%; 
+    height: 100%; 
+    display: block; 
+    object-fit: cover; 
+  } 
+   
+  h1 { 
+    text-transform: uppercase;
+    max-width: 100rem;
+    max-height: 16.2rem;
+    font-weight: 700;
+    font-size: 7.2rem; 
+    line-height: 8.6rem; 
+  }  
+   
+  h2 { 
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6.4rem; 
+    line-height: 5.2rem; 
+  } 
+
+  h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 5.2rem;
+  }
+
+  h4 { 
+    text-transform: uppercase;
+    font-size: 2.4rem; 
+    line-height: 3.2rem; 
+  } 
+
+  h1,
+  h2,
+  h3,
+  h4{
+    font-family: 'didot';
+  }
+   
+  ul { 
+    list-style: none; 
+  } 
+   
+  a { 
+    text-decoration: none; 
+  } 
+
+  .container { 
+    width: 100%; 
+    max-width: var(--container-width-lg); 
+    margin: 0 auto; 
+  } 
